@@ -25,5 +25,5 @@ I had some strings in Latin1 messed with others correctly encoded in UTF8.
 You can't change all the database encoding because is not entirely bad encoded, so you need a "intelligent" program that changes only 
 bad encoded strings.
 
-This progran is "ftfy", and to ease the use of this program i've programmed this script in python to ease it's use inside a MySQL DB.
+This progran uses "ftfy", and to ease the use of this program i've programmed this script in python to ease it's use inside a MySQL DB. The problem of having multimple encodings into a database field is that if you export the DB in a concrete encoding, you could lost some bad encoded characters forever. To avoid this problem we need call "ftfy" without exporting the database. 
 
