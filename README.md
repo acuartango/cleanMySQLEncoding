@@ -28,7 +28,8 @@ bad encoded strings.
 This progran uses "ftfy". I've programmed this script in python to ease it's use inside a MySQL DB. The problem of having multimple encodings into a database field is that if you export the DB in a concrete encoding, you could lost some bad encoded characters forever. To avoid this problem we need call "ftfy" without exporting the database. 
 
 # How to use
-
-<pre>
+```
 normalizeBD.py -h <host> -p <port> -d <database> -u <username> -P <password> -c <BD charset>
-</pre>
+```
+
+
