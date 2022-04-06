@@ -29,4 +29,6 @@ This progran uses "ftfy". I've programmed this script in python to ease it's use
 
 # How to use
 
+<pre>
 normalizeBD.py -h <host> -p <port> -d <database> -u <username> -P <password> -c <BD charset>
+</pre>
